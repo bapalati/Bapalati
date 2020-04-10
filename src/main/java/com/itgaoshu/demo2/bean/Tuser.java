@@ -10,7 +10,7 @@ public class Tuser implements Serializable {
     @GeneratedValue(generator="JDBC")
     private Integer id;
     private String loginname;
-    private String password;
+    private String password="ss";
     private String realname;
     private String sex;
     private String birthday;
